@@ -1,6 +1,6 @@
 const BinarySearchTree = require("./binary-search-tree");
 
-describe("insert", function() {
+describe.only("insert", function() {
   it("inserts a node at the correct position", function() {
     var binarySearchTree = new BinarySearchTree();
     binarySearchTree
@@ -22,7 +22,7 @@ describe("insert", function() {
   });
 });
 
-describe("insertRecursively", function() {
+describe.only("insertRecursively", function() {
   it("inserts a node at the correct position", function() {
     var binarySearchTree = new BinarySearchTree();
     binarySearchTree
@@ -44,7 +44,7 @@ describe("insertRecursively", function() {
   });
 });
 
-describe("find", function() {
+describe.only("find", function() {
   it("finds a node correctly", function() {
     let binarySearchTree = new BinarySearchTree();
     binarySearchTree
@@ -70,7 +70,7 @@ describe("find", function() {
   });
 });
 
-describe("findRecursively", function() {
+describe.only("findRecursively", function() {
   it("finds a node correctly", function() {
     let binarySearchTree = new BinarySearchTree();
     binarySearchTree
@@ -96,7 +96,7 @@ describe("findRecursively", function() {
   });
 });
 
-describe("dfsPreOrder", function() {
+describe.only("dfsPreOrder", function() {
   it("returns an array of values found with DFS Pre Order", function() {
     let binarySearchTree = new BinarySearchTree();
     binarySearchTree
@@ -111,7 +111,7 @@ describe("dfsPreOrder", function() {
   });
 });
 
-describe("dfsInOrder", function() {
+describe.only("dfsInOrder", function() {
   it("returns an array of values found with DFS In Order", function() {
     let binarySearchTree = new BinarySearchTree();
     binarySearchTree
@@ -126,7 +126,7 @@ describe("dfsInOrder", function() {
   });
 });
 
-describe("dfsPostOrder", function() {
+describe.only("dfsPostOrder", function() {
   it("returns an array of values found with DFS Post Order", function() {
     let binarySearchTree = new BinarySearchTree();
     binarySearchTree
@@ -141,7 +141,7 @@ describe("dfsPostOrder", function() {
   });
 });
 
-describe("BFS", function() {
+describe.only("BFS", function() {
   it("should return the correct output", function() {
     let binarySearchTree = new BinarySearchTree();
     binarySearchTree
